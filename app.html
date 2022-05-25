@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script src="app.js" type="module"></script>
+    <title>Weather API</title>
+</head>
+
+<body>
+    <form action="/" method="post" class="w-full">
+
+        <div style="display: content;
+        margin: auto;
+        width: 50%;
+        padding-top: 7%;
+        padding-bottom: 2%;">
+
+            <label for="town">Enter the place name : </label>
+            <input type="text" placeholder="Bangalore, Pune, etc.." name="town" id="town">
+            <!-- <input type="text" name="town" id="town"></input> -->
+            <!-- <button type="submit">Submit!</button> -->
+            <input type="submit" value="Submit"></input>
+        </div>
+            <div style="display: content;
+            margin: auto;
+            width: 50%;">
+            
+                    <input type="radio" name="choice" id="current" checked value="current" />
+                    <label for="current">
+                        Current Data
+                    </label>
+                    <input type="radio" name="choice" id="forecast" value="forecast" />
+                    <label for="forecast">
+                        Forecast Data
+                    </label>
+            </div>
+
+    </form>
+</body>
+
+</html>

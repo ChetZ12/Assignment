@@ -1,0 +1,2 @@
+URL,API_KEY,Town,AQI,Alerts
+http://api.weatherapi.com/v1/current.json?,7306e9e6b7fa46d18b553238222505,London,no,no
